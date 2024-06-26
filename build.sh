@@ -8,6 +8,9 @@ source vercel-env/bin/activate
 # Install dependencies
 python3.9 -m pip install -r requirements.txt
 
+# List installed packages with versions``
+python3.9 -m pip freeze
+
 # Apply migrations
 python3.9 manage.py migrate
 
