@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock title %}
+
+{% block styles %}
+  <link rel="stylesheet" href="{% static 'css/app/about.css' %}">
+{% endblock styles %}
+
+{% block content %}
+  <!-- ABOUT US -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 mx-auto first-container items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
+        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font text-center">Who are we?</h3>
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">About Us</h1>
+        <p class="mb-8 leading-relaxed text-justify">With 4+ years of experience, Sehrawat AC Works is a cornerstone of the durable consumer industry. 
+          The service industry has always been its backbone, ensuring consumers get the most from their durable goods. 
+          As every product eventually requires maintenance or repairs, we are committed to delivering exceptional service. 
+          Our highly trained professionals provide top-tier repair services, ensuring your products perform at their best. 
+          We strive to exceed your expectations with reliable, efficient, and high-quality service to meet all your repair needs.</p>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src="{% static "images/home/about.webp" %}">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 mx-auto second-container">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 w-full">
+          <div class="h-full bg-gray-100 p-8 rounded">
+            <h3 class="title-font sm:text-2xl text-2xl mb-4 font-medium text-gray-900">Feel free to reach out</h3>
+            <div class="reachOut">
+              <p class="leading-relaxed mb-6">Book Hassle-free services by verified Sehrawat AC Works professionals in your appropriate time slot.</p>
+              <div>
+                <a class="inline-flex items-center">
+                  <span class="flex-grow flex flex-col">
+                    <span class="title-font sm:text-1xl text-1xl font-medium text-gray-900">+91-8851551033</span>
+                    <span class="text-gray-500 text-sm">Ardee City E-Block Market, Sector-52 Gurugram, HARYANA (122005)</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock content %}

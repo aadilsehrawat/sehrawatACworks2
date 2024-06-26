@@ -1,0 +1,13 @@
+#messages{
+    padding: 0 30vw;
+}
+
+.message-border{
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    #messages{
+        padding: 0;
+    }
+}

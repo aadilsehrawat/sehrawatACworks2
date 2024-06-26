@@ -1,0 +1,27 @@
+.first-container{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.reachOut{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .first-container{
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        gap: 20px;
+    }
+
+    .second-container{
+        margin-top: -3rem;
+    }
+
+    .reachOut{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,12 @@
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .third-container{
+        margin-top: 5rem;
+    }
+}

@@ -1,0 +1,14 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/components/messages.css' %}">
+
+<div id="messages">
+    {% if message.tags == 'success' %}
+    <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 message-border" role="alert">
+        <p class="font-bold">Success!</p>
+    {% else %}
+    <div class="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4 message-border" role="alert">
+        <p class="font-bold">Oops!</p>
+    {% endif %}
+        <p>{{message}}</p>
+    </div>
+</div>

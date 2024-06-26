@@ -1,0 +1,12 @@
+.break-text {
+    display: inline;
+}
+
+@media (max-width: 768px) {
+    .break-text {
+        display: block;
+    }
+    .hyphen{
+      display: none;
+    }
+}
