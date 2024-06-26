@@ -3,7 +3,6 @@ function readmore(){
     document.getElementById('readMore').style.display = 'none';
     document.getElementById('readLess').style.display = 'inline-block';
 }
-
 function readless(){
     document.getElementById('readMoreText').innerHTML = "...";
     document.getElementById('readLess').style.display = 'none';
