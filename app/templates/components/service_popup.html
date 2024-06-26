@@ -1,6 +1,6 @@
 {% load static %}
 
-<link rel="stylesheet" href="{% static 'css/components/service_popup.css' %}">
+<link rel="stylesheet" href="{% static 'website/css/components/service_popup.css' %}">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
@@ -9,7 +9,7 @@
 <div id="popup" class="popup">
   <div class="popup-content">
     <div class="close-container flex justify-center">
-      <img id="closePopupBtn" src="{% static "images/components/close.svg" %}" alt="close">
+      <img id="closePopupBtn" src="{% static "website/images/components/close.svg" %}" alt="close">
     </div>
     <form action="" method="POST">
       {% csrf_token %}
@@ -50,4 +50,4 @@
 
 <div id="backdrop" class="backdrop"></div>
 
-<script src="{% static "js/components/service_popup.js" %}"></script>
+<script src="{% static "website/js/components/service_popup.js" %}"></script>

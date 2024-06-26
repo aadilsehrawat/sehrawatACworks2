@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sehrawat AC Works | {% block title %}{% endblock title %}</title>
-    <link rel="icon" href={% static "images/logo/logo_white.png" %} type="image/icon type">
-    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="icon" href={% static "website/images/logo/logo_white.png" %} type="image/icon type">
+    <link rel="stylesheet" href="{% static 'website/css/base.css' %}">
     <script src="https://cdn.tailwindcss.com"></script>
     {% block styles %}{% endblock styles %}
     {% block head %}{% endblock head %}
@@ -24,14 +24,14 @@
                 {% endfor %}
             {% endif %}
             {% block content %}{% endblock content %}
-            <img src="{% static 'images/components/scroll_to_top.svg' %}" onclick="scrollToTop()" alt="Scroll To Top" id="scrollToTopBtn">
+            <img src="{% static 'website/images/components/scroll_to_top.svg' %}" onclick="scrollToTop()" alt="Scroll To Top" id="scrollToTopBtn">
         </div>
         <div id="footer">
             {% include 'components/footer.html' %}
         </div>
     </div>
     
-    <script src="{% static 'js/base.js' %}"></script>
+    <script src="{% static 'website/js/base.js' %}"></script>
     {% block scripts %}
     {% endblock scripts %}
 </body>
