@@ -4,7 +4,7 @@
 {% block title %}Contact Us{% endblock title %}
 
 {% block styles %}
-  <link rel="stylesheet" href="{% static 'website/css/app/contact.css' %}">
+  <link rel="stylesheet" href="{% static 'css/app/contact.css' %}">
 {% endblock styles %}
 
 {% block content %}
@@ -21,9 +21,9 @@
           </div>
           <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
             <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-            <a class="text-indigo-500 leading-relaxed">aadilsehrawat@email.com</a>
+            <a href="mailto:aadilsehrawat@gmail.com" class="text-indigo-500 leading-relaxed">aadilsehrawat@gmail.com</a>
             <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-            <p class="leading-relaxed">+91-8851551033</p>
+            <a href="tel:+918851551033" class="leading-relaxed">+91-8851551033</a>
           </div>
         </div>
       </div>
@@ -55,9 +55,4 @@
     </div>
   </form>
 </section>
-
 {% endblock content %}
-
-{% block scripts %}
-  <script src="{% static 'website/js/app/home.js' %}"></script>
-{% endblock scripts %}

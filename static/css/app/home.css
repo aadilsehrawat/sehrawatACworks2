@@ -4,21 +4,11 @@
     margin-bottom: 3rem;
 }
 
-.second-container{
-    display: flex;
-    margin-top: 6rem;
-    margin-bottom: 5rem;
-}
-
 #bannerAnchor{
     margin-top: 3rem;
 }
 
-.third-container{
-    padding-top: 3rem;
-}
-
-.fourth-container{
+.second-container{
     padding-top: 10rem;
     padding-bottom: 5rem;
 }
@@ -43,20 +33,11 @@
         margin-bottom: 1.5rem;
         gap: 20px;
     }
-    .second-container{
-        flex-direction: column-reverse;
-        margin-top: 5rem;
-        margin-bottom: 3rem;
-        gap: 20px;
-    }
     #bannerAnchor{
         margin-top: 0;
     }
-    .third-container{
-        margin-top: 5rem;
-        padding-top: 0;
-    }
-    .fourth-container{
+
+    .second-container{
         padding-top: 5rem;
         padding-bottom: 1rem;
     }

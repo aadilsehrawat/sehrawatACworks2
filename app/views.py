@@ -40,7 +40,7 @@ def contact(request):
         print(name, phone, email, message)
         messages.success(request, 'Thank you for contacting us! We will get back to you soon with your request.')
         return redirect('Home')
-    return render(request, 'app/contact_us.html', {'active_tab': 'contact'})
+    return render(request, 'app/contact.html', {'active_tab': 'contact'})
 
 def services(request):
     if request.method == 'POST':

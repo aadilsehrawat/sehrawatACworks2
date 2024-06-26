@@ -1,7 +1,6 @@
-.first-container{
+.about-container{
     display: flex;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-block: 5rem;
 }
 
 .reachOut{
@@ -10,17 +9,14 @@
 }
 
 @media (max-width: 768px) {
-    .first-container{
+    .about-container{
         flex-direction: column-reverse;
-        margin-top: 2rem;
-        margin-bottom: 3rem;
+        margin-block: 3rem;
         gap: 20px;
     }
-
-    .second-container{
+    .reachOut-container{
         margin-top: -3rem;
     }
-
     .reachOut{
         flex-direction: column;
     }
